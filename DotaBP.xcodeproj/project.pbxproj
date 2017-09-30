@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67DAAFF13A9FD17ADA0B14C6 /* Pods_DotaBP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C3B2C38CD5E5BC556625EC /* Pods_DotaBP.framework */; };
+		D026C2591E03A2E6007A141E /* vslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D026C2581E03A2E6007A141E /* vslogo.png */; };
+		D0300CE61DFEA2FA006EC98A /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0300CE51DFEA2FA006EC98A /* test.swift */; };
+		D0300CE91DFEAD8F006EC98A /* CombAndAntiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0300CE71DFEAD8F006EC98A /* CombAndAntiCell.swift */; };
+		D0300CEA1DFEAD8F006EC98A /* CombAndAntiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0300CE81DFEAD8F006EC98A /* CombAndAntiCell.xib */; };
+		D0300CED1DFEB7FC006EC98A /* CombAndAntiOtherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0300CEB1DFEB7FC006EC98A /* CombAndAntiOtherCell.swift */; };
+		D0300CEE1DFEB7FC006EC98A /* CombAndAntiOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0300CEC1DFEB7FC006EC98A /* CombAndAntiOtherCell.xib */; };
+		D0504B171E268E99001BEA11 /* lang6.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D0504B161E268E99001BEA11 /* lang6.PNG */; };
+		D05773911DFA9E690071C7B7 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05773901DFA9E690071C7B7 /* HeroView.swift */; };
+		D05773931DFAA17F0071C7B7 /* HeroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05773921DFAA17F0071C7B7 /* HeroView.xib */; };
+		D05773951DFAA7060071C7B7 /* axe_hphover.png in Resources */ = {isa = PBXBuildFile; fileRef = D05773941DFAA7060071C7B7 /* axe_hphover.png */; };
+		D05773981DFD0A660071C7B7 /* HeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05773961DFD0A660071C7B7 /* HeroTableViewController.swift */; };
+		D05773991DFD0A660071C7B7 /* HeroTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05773971DFD0A660071C7B7 /* HeroTableViewController.xib */; };
+		D057739B1DFD1C680071C7B7 /* HeroInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057739A1DFD1C680071C7B7 /* HeroInfo.swift */; };
+		D057739E1DFD36E40071C7B7 /* HeroInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057739C1DFD36E40071C7B7 /* HeroInfoTableViewCell.swift */; };
+		D057739F1DFD36E40071C7B7 /* HeroInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D057739D1DFD36E40071C7B7 /* HeroInfoTableViewCell.xib */; };
+		D057748A1DFD7A740071C7B7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05773B61DFD55A80071C7B7 /* ImageIO.framework */; };
+		D05A8A161E263007003C8764 /* SetLangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A8A151E263007003C8764 /* SetLangView.swift */; };
+		D05A8A181E263022003C8764 /* SetLangView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05A8A171E263022003C8764 /* SetLangView.xib */; };
+		D05A8A1F1E26326E003C8764 /* lang2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D05A8A1A1E26326E003C8764 /* lang2.PNG */; };
+		D05A8A201E26326E003C8764 /* lang3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D05A8A1B1E26326E003C8764 /* lang3.PNG */; };
+		D05A8A211E26326E003C8764 /* lang4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D05A8A1C1E26326E003C8764 /* lang4.PNG */; };
+		D05A8A221E26326E003C8764 /* lang5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D05A8A1D1E26326E003C8764 /* lang5.PNG */; };
+		D05A8A241E263794003C8764 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D05A8A231E263794003C8764 /* arrow@2x.png */; };
+		D0620F6E1E00E4B500A29F84 /* default_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D0620F6D1E00E4B500A29F84 /* default_logo.png */; };
+		D0620F761E01133300A29F84 /* dotalogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D0620F751E01133300A29F84 /* dotalogo.png */; };
+		D081E4A41DFE49CB006C473D /* FirstHeroAntiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D081E4A21DFE49CB006C473D /* FirstHeroAntiViewController.swift */; };
+		D081E4A51DFE49CB006C473D /* FirstHeroAntiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D081E4A31DFE49CB006C473D /* FirstHeroAntiViewController.xib */; };
+		D081E4A71DFE6D6A006C473D /* AntiHeroInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D081E4A61DFE6D6A006C473D /* AntiHeroInfo.swift */; };
+		D081E4A91DFE6D79006C473D /* CombHeroInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D081E4A81DFE6D79006C473D /* CombHeroInfo.swift */; };
+		D081E4AC1DFE71B2006C473D /* FirstHeroAntiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D081E4AA1DFE71B2006C473D /* FirstHeroAntiTableViewCell.swift */; };
+		D081E4AD1DFE71B2006C473D /* FirstHeroAntiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D081E4AB1DFE71B2006C473D /* FirstHeroAntiTableViewCell.xib */; };
+		D081E4B41DFE8B11006C473D /* CombAndAntiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D081E4B21DFE8B11006C473D /* CombAndAntiController.swift */; };
+		D081E4B51DFE8B11006C473D /* CombAndAntiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D081E4B31DFE8B11006C473D /* CombAndAntiController.xib */; };
+		D08695331E13AAD10096963E /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08695321E13AAD10096963E /* TipsView.swift */; };
+		D08695351E13AAF80096963E /* TipsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08695341E13AAF80096963E /* TipsView.xib */; };
+		D0A202491DF7F862009DD6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A202481DF7F862009DD6B0 /* AppDelegate.swift */; };
+		D0A2024B1DF7F862009DD6B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2024A1DF7F862009DD6B0 /* ViewController.swift */; };
+		D0A2024E1DF7F862009DD6B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A2024C1DF7F862009DD6B0 /* Main.storyboard */; };
+		D0A202501DF7F863009DD6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A2024F1DF7F863009DD6B0 /* Assets.xcassets */; };
+		D0A202531DF7F863009DD6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A202511DF7F863009DD6B0 /* LaunchScreen.storyboard */; };
+		D0B6823F1E153B1600EA813C /* launchimg.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B6823E1E153B1600EA813C /* launchimg.png */; };
+		D0B7580C1E092902007B0926 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7580B1E092902007B0926 /* HeroModel.swift */; };
+		D0B7580E1E0A9130007B0926 /* ParseHtml.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7580D1E0A9130007B0926 /* ParseHtml.swift */; };
+		D0BC04801E0BCCE300E41945 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = D0BC047F1E0BCCE300E41945 /* refresh.png */; };
+		D0CA139F1DFDB5E700508E77 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CA139E1DFDB5E700508E77 /* SDWebImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D05774551DFD78280071C7B7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8A306894358D9567659101DB /* Pods-DotaBP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotaBP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DotaBP/Pods-DotaBP.debug.xcconfig"; sourceTree = "<group>"; };
+		D026C2581E03A2E6007A141E /* vslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vslogo.png; sourceTree = "<group>"; };
+		D0300CE51DFEA2FA006EC98A /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		D0300CE71DFEAD8F006EC98A /* CombAndAntiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombAndAntiCell.swift; sourceTree = "<group>"; };
+		D0300CE81DFEAD8F006EC98A /* CombAndAntiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CombAndAntiCell.xib; sourceTree = "<group>"; };
+		D0300CEB1DFEB7FC006EC98A /* CombAndAntiOtherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombAndAntiOtherCell.swift; sourceTree = "<group>"; };
+		D0300CEC1DFEB7FC006EC98A /* CombAndAntiOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CombAndAntiOtherCell.xib; sourceTree = "<group>"; };
+		D0504B161E268E99001BEA11 /* lang6.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lang6.PNG; sourceTree = "<group>"; };
+		D05773901DFA9E690071C7B7 /* HeroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		D05773921DFAA17F0071C7B7 /* HeroView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroView.xib; sourceTree = "<group>"; };
+		D05773941DFAA7060071C7B7 /* axe_hphover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = axe_hphover.png; sourceTree = "<group>"; };
+		D05773961DFD0A660071C7B7 /* HeroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTableViewController.swift; sourceTree = "<group>"; };
+		D05773971DFD0A660071C7B7 /* HeroTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroTableViewController.xib; sourceTree = "<group>"; };
+		D057739A1DFD1C680071C7B7 /* HeroInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroInfo.swift; sourceTree = "<group>"; };
+		D057739C1DFD36E40071C7B7 /* HeroInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroInfoTableViewCell.swift; sourceTree = "<group>"; };
+		D057739D1DFD36E40071C7B7 /* HeroInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroInfoTableViewCell.xib; sourceTree = "<group>"; };
+		D05773B61DFD55A80071C7B7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D05A8A151E263007003C8764 /* SetLangView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetLangView.swift; sourceTree = "<group>"; };
+		D05A8A171E263022003C8764 /* SetLangView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetLangView.xib; sourceTree = "<group>"; };
+		D05A8A1A1E26326E003C8764 /* lang2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lang2.PNG; sourceTree = "<group>"; };
+		D05A8A1B1E26326E003C8764 /* lang3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lang3.PNG; sourceTree = "<group>"; };
+		D05A8A1C1E26326E003C8764 /* lang4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lang4.PNG; sourceTree = "<group>"; };
+		D05A8A1D1E26326E003C8764 /* lang5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lang5.PNG; sourceTree = "<group>"; };
+		D05A8A231E263794003C8764 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		D0620F6D1E00E4B500A29F84 /* default_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_logo.png; sourceTree = "<group>"; };
+		D0620F751E01133300A29F84 /* dotalogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dotalogo.png; sourceTree = "<group>"; };
+		D081E4A21DFE49CB006C473D /* FirstHeroAntiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstHeroAntiViewController.swift; sourceTree = "<group>"; };
+		D081E4A31DFE49CB006C473D /* FirstHeroAntiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstHeroAntiViewController.xib; sourceTree = "<group>"; };
+		D081E4A61DFE6D6A006C473D /* AntiHeroInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AntiHeroInfo.swift; sourceTree = "<group>"; };
+		D081E4A81DFE6D79006C473D /* CombHeroInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombHeroInfo.swift; sourceTree = "<group>"; };
+		D081E4AA1DFE71B2006C473D /* FirstHeroAntiTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstHeroAntiTableViewCell.swift; sourceTree = "<group>"; };
+		D081E4AB1DFE71B2006C473D /* FirstHeroAntiTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstHeroAntiTableViewCell.xib; sourceTree = "<group>"; };
+		D081E4B21DFE8B11006C473D /* CombAndAntiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombAndAntiController.swift; sourceTree = "<group>"; };
+		D081E4B31DFE8B11006C473D /* CombAndAntiController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CombAndAntiController.xib; sourceTree = "<group>"; };
+		D08695321E13AAD10096963E /* TipsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		D08695341E13AAF80096963E /* TipsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipsView.xib; sourceTree = "<group>"; };
+		D0A202451DF7F862009DD6B0 /* DotaBP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaBP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A202481DF7F862009DD6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0A2024A1DF7F862009DD6B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0A2024D1DF7F862009DD6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0A2024F1DF7F863009DD6B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0A202521DF7F863009DD6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0A202541DF7F863009DD6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B6823E1E153B1600EA813C /* launchimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimg.png; sourceTree = "<group>"; };
+		D0B7580B1E092902007B0926 /* HeroModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		D0B7580D1E0A9130007B0926 /* ParseHtml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseHtml.swift; sourceTree = "<group>"; };
+		D0BC047F1E0BCCE300E41945 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		D0CA139E1DFDB5E700508E77 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../../Library/Developer/Xcode/DerivedData/DotaBP-btlgemihcbsfzadprtebbldsshlj/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		D0CA13A11DFDB61D00508E77 /* DotaBP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DotaBP-Bridging-Header.h"; sourceTree = "<group>"; };
+		E6C3B2C38CD5E5BC556625EC /* Pods_DotaBP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DotaBP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFDDA58668E2DF8D8A768A6 /* Pods-DotaBP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotaBP.release.xcconfig"; path = "Pods/Target Support Files/Pods-DotaBP/Pods-DotaBP.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0A202421DF7F862009DD6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CA139F1DFDB5E700508E77 /* SDWebImage.framework in Frameworks */,
+				D057748A1DFD7A740071C7B7 /* ImageIO.framework in Frameworks */,
+				67DAAFF13A9FD17ADA0B14C6 /* Pods_DotaBP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AD939C7FB6D3C1F378C39EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A306894358D9567659101DB /* Pods-DotaBP.debug.xcconfig */,
+				FCFDDA58668E2DF8D8A768A6 /* Pods-DotaBP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D05773B51DFD55A70071C7B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA139E1DFDB5E700508E77 /* SDWebImage.framework */,
+				D05773B61DFD55A80071C7B7 /* ImageIO.framework */,
+				E6C3B2C38CD5E5BC556625EC /* Pods_DotaBP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0A2023C1DF7F862009DD6B0 = {
+			isa = PBXGroup;
+			children = (
+				D0A202471DF7F862009DD6B0 /* DotaBP */,
+				D0A202461DF7F862009DD6B0 /* Products */,
+				D05773B51DFD55A70071C7B7 /* Frameworks */,
+				9AD939C7FB6D3C1F378C39EF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D0A202461DF7F862009DD6B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0A202451DF7F862009DD6B0 /* DotaBP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0A202471DF7F862009DD6B0 /* DotaBP */ = {
+			isa = PBXGroup;
+			children = (
+				D05A8A231E263794003C8764 /* arrow@2x.png */,
+				D05A8A1A1E26326E003C8764 /* lang2.PNG */,
+				D05A8A1B1E26326E003C8764 /* lang3.PNG */,
+				D05A8A1C1E26326E003C8764 /* lang4.PNG */,
+				D05A8A1D1E26326E003C8764 /* lang5.PNG */,
+				D0504B161E268E99001BEA11 /* lang6.PNG */,
+				D0B6823E1E153B1600EA813C /* launchimg.png */,
+				D0BC047F1E0BCCE300E41945 /* refresh.png */,
+				D026C2581E03A2E6007A141E /* vslogo.png */,
+				D0620F751E01133300A29F84 /* dotalogo.png */,
+				D0A202481DF7F862009DD6B0 /* AppDelegate.swift */,
+				D0A2024A1DF7F862009DD6B0 /* ViewController.swift */,
+				D0A2024C1DF7F862009DD6B0 /* Main.storyboard */,
+				D0A2024F1DF7F863009DD6B0 /* Assets.xcassets */,
+				D0A202511DF7F863009DD6B0 /* LaunchScreen.storyboard */,
+				D05773941DFAA7060071C7B7 /* axe_hphover.png */,
+				D0A202541DF7F863009DD6B0 /* Info.plist */,
+				D05773901DFA9E690071C7B7 /* HeroView.swift */,
+				D05773921DFAA17F0071C7B7 /* HeroView.xib */,
+				D05773961DFD0A660071C7B7 /* HeroTableViewController.swift */,
+				D05773971DFD0A660071C7B7 /* HeroTableViewController.xib */,
+				D057739A1DFD1C680071C7B7 /* HeroInfo.swift */,
+				D057739C1DFD36E40071C7B7 /* HeroInfoTableViewCell.swift */,
+				D057739D1DFD36E40071C7B7 /* HeroInfoTableViewCell.xib */,
+				D0CA13A11DFDB61D00508E77 /* DotaBP-Bridging-Header.h */,
+				D081E4A21DFE49CB006C473D /* FirstHeroAntiViewController.swift */,
+				D081E4A31DFE49CB006C473D /* FirstHeroAntiViewController.xib */,
+				D081E4A61DFE6D6A006C473D /* AntiHeroInfo.swift */,
+				D081E4A81DFE6D79006C473D /* CombHeroInfo.swift */,
+				D081E4AA1DFE71B2006C473D /* FirstHeroAntiTableViewCell.swift */,
+				D081E4AB1DFE71B2006C473D /* FirstHeroAntiTableViewCell.xib */,
+				D081E4B21DFE8B11006C473D /* CombAndAntiController.swift */,
+				D081E4B31DFE8B11006C473D /* CombAndAntiController.xib */,
+				D0300CE51DFEA2FA006EC98A /* test.swift */,
+				D0300CE71DFEAD8F006EC98A /* CombAndAntiCell.swift */,
+				D0300CE81DFEAD8F006EC98A /* CombAndAntiCell.xib */,
+				D0300CEB1DFEB7FC006EC98A /* CombAndAntiOtherCell.swift */,
+				D0300CEC1DFEB7FC006EC98A /* CombAndAntiOtherCell.xib */,
+				D0620F6D1E00E4B500A29F84 /* default_logo.png */,
+				D0B7580B1E092902007B0926 /* HeroModel.swift */,
+				D0B7580D1E0A9130007B0926 /* ParseHtml.swift */,
+				D08695321E13AAD10096963E /* TipsView.swift */,
+				D08695341E13AAF80096963E /* TipsView.xib */,
+				D05A8A151E263007003C8764 /* SetLangView.swift */,
+				D05A8A171E263022003C8764 /* SetLangView.xib */,
+			);
+			path = DotaBP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0A202441DF7F862009DD6B0 /* DotaBP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A202571DF7F863009DD6B0 /* Build configuration list for PBXNativeTarget "DotaBP" */;
+			buildPhases = (
+				69E35D6EDB4B5B6E7A5716CF /* [CP] Check Pods Manifest.lock */,
+				D0A202411DF7F862009DD6B0 /* Sources */,
+				D0A202421DF7F862009DD6B0 /* Frameworks */,
+				D0A202431DF7F862009DD6B0 /* Resources */,
+				D05774551DFD78280071C7B7 /* Embed Frameworks */,
+				48E08FA7FE5F35A580CF0EC9 /* [CP] Embed Pods Frameworks */,
+				F6FBD6B987EA9FF5FBCE3C20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DotaBP;
+			productName = DotaBP;
+			productReference = D0A202451DF7F862009DD6B0 /* DotaBP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0A2023D1DF7F862009DD6B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "陈小奔";
+				TargetAttributes = {
+					D0A202441DF7F862009DD6B0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 79F6U8237Z;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D0A202401DF7F862009DD6B0 /* Build configuration list for PBXProject "DotaBP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0A2023C1DF7F862009DD6B0;
+			productRefGroup = D0A202461DF7F862009DD6B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0A202441DF7F862009DD6B0 /* DotaBP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0A202431DF7F862009DD6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A202531DF7F863009DD6B0 /* LaunchScreen.storyboard in Resources */,
+				D081E4A51DFE49CB006C473D /* FirstHeroAntiViewController.xib in Resources */,
+				D05A8A181E263022003C8764 /* SetLangView.xib in Resources */,
+				D05773991DFD0A660071C7B7 /* HeroTableViewController.xib in Resources */,
+				D05773951DFAA7060071C7B7 /* axe_hphover.png in Resources */,
+				D026C2591E03A2E6007A141E /* vslogo.png in Resources */,
+				D0A202501DF7F863009DD6B0 /* Assets.xcassets in Resources */,
+				D05A8A1F1E26326E003C8764 /* lang2.PNG in Resources */,
+				D057739F1DFD36E40071C7B7 /* HeroInfoTableViewCell.xib in Resources */,
+				D0620F761E01133300A29F84 /* dotalogo.png in Resources */,
+				D05A8A241E263794003C8764 /* arrow@2x.png in Resources */,
+				D05A8A221E26326E003C8764 /* lang5.PNG in Resources */,
+				D0B6823F1E153B1600EA813C /* launchimg.png in Resources */,
+				D05773931DFAA17F0071C7B7 /* HeroView.xib in Resources */,
+				D081E4AD1DFE71B2006C473D /* FirstHeroAntiTableViewCell.xib in Resources */,
+				D0504B171E268E99001BEA11 /* lang6.PNG in Resources */,
+				D0620F6E1E00E4B500A29F84 /* default_logo.png in Resources */,
+				D08695351E13AAF80096963E /* TipsView.xib in Resources */,
+				D0300CEA1DFEAD8F006EC98A /* CombAndAntiCell.xib in Resources */,
+				D081E4B51DFE8B11006C473D /* CombAndAntiController.xib in Resources */,
+				D0BC04801E0BCCE300E41945 /* refresh.png in Resources */,
+				D05A8A201E26326E003C8764 /* lang3.PNG in Resources */,
+				D05A8A211E26326E003C8764 /* lang4.PNG in Resources */,
+				D0A2024E1DF7F862009DD6B0 /* Main.storyboard in Resources */,
+				D0300CEE1DFEB7FC006EC98A /* CombAndAntiOtherCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E08FA7FE5F35A580CF0EC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DotaBP/Pods-DotaBP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69E35D6EDB4B5B6E7A5716CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6FBD6B987EA9FF5FBCE3C20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DotaBP/Pods-DotaBP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0A202411DF7F862009DD6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A2024B1DF7F862009DD6B0 /* ViewController.swift in Sources */,
+				D0300CE61DFEA2FA006EC98A /* test.swift in Sources */,
+				D081E4B41DFE8B11006C473D /* CombAndAntiController.swift in Sources */,
+				D057739B1DFD1C680071C7B7 /* HeroInfo.swift in Sources */,
+				D05773981DFD0A660071C7B7 /* HeroTableViewController.swift in Sources */,
+				D0300CE91DFEAD8F006EC98A /* CombAndAntiCell.swift in Sources */,
+				D081E4A71DFE6D6A006C473D /* AntiHeroInfo.swift in Sources */,
+				D0A202491DF7F862009DD6B0 /* AppDelegate.swift in Sources */,
+				D05773911DFA9E690071C7B7 /* HeroView.swift in Sources */,
+				D081E4AC1DFE71B2006C473D /* FirstHeroAntiTableViewCell.swift in Sources */,
+				D0B7580E1E0A9130007B0926 /* ParseHtml.swift in Sources */,
+				D057739E1DFD36E40071C7B7 /* HeroInfoTableViewCell.swift in Sources */,
+				D081E4A41DFE49CB006C473D /* FirstHeroAntiViewController.swift in Sources */,
+				D081E4A91DFE6D79006C473D /* CombHeroInfo.swift in Sources */,
+				D0300CED1DFEB7FC006EC98A /* CombAndAntiOtherCell.swift in Sources */,
+				D08695331E13AAD10096963E /* TipsView.swift in Sources */,
+				D0B7580C1E092902007B0926 /* HeroModel.swift in Sources */,
+				D05A8A161E263007003C8764 /* SetLangView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0A2024C1DF7F862009DD6B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A2024D1DF7F862009DD6B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0A202511DF7F863009DD6B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A202521DF7F863009DD6B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0A202551DF7F863009DD6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0A202561DF7F863009DD6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0A202581DF7F863009DD6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A306894358D9567659101DB /* Pods-DotaBP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 79F6U8237Z;
+				INFOPLIST_FILE = DotaBP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.DotaBP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8c1c72fb-ece6-406e-ac23-686b59b64343";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentPPDotaBP;
+				SWIFT_OBJC_BRIDGING_HEADER = "DotaBP/DotaBP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D0A202591DF7F863009DD6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCFDDA58668E2DF8D8A768A6 /* Pods-DotaBP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 79F6U8237Z;
+				INFOPLIST_FILE = DotaBP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.DotaBP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "46c0ecac-f77d-41df-bf8e-10e755d54ae9";
+				PROVISIONING_PROFILE_SPECIFIER = DistributionPPDotaBP;
+				SWIFT_OBJC_BRIDGING_HEADER = "DotaBP/DotaBP-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0A202401DF7F862009DD6B0 /* Build configuration list for PBXProject "DotaBP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A202551DF7F863009DD6B0 /* Debug */,
+				D0A202561DF7F863009DD6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A202571DF7F863009DD6B0 /* Build configuration list for PBXNativeTarget "DotaBP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A202581DF7F863009DD6B0 /* Debug */,
+				D0A202591DF7F863009DD6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0A2023D1DF7F862009DD6B0 /* Project object */;
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeroView" customModule="DotaBP" customModuleProvider="target">
+            <connections>
+                <outlet property="imageBtn" destination="D6z-jq-jff" id="e7T-eS-bMU"/>
+                <outlet property="nameLabel" destination="aP3-zV-g63" id="80o-h4-uQD"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Dij-RE-fNi"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="127" height="93"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXJ-Cw-GRD">
+                    <rect key="frame" x="0.0" y="71" width="127" height="22"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aP3-zV-g63">
+                            <rect key="frame" x="0.0" y="11" width="127" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="3kQ-5U-bRB"/>
+                        <constraint firstAttribute="trailing" secondItem="aP3-zV-g63" secondAttribute="trailing" id="KUQ-z2-Wi8"/>
+                        <constraint firstItem="aP3-zV-g63" firstAttribute="leading" secondItem="DXJ-Cw-GRD" secondAttribute="leading" id="fPm-4y-wpD"/>
+                        <constraint firstItem="aP3-zV-g63" firstAttribute="centerY" secondItem="DXJ-Cw-GRD" secondAttribute="centerY" id="xHQ-fA-YVO"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6z-jq-jff">
+                    <rect key="frame" x="0.0" y="0.0" width="127" height="71"/>
+                    <state key="normal" backgroundImage="default_logo.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DXJ-Cw-GRD" secondAttribute="bottom" id="DLT-mL-KBe"/>
+                <constraint firstItem="DXJ-Cw-GRD" firstAttribute="top" secondItem="D6z-jq-jff" secondAttribute="bottom" id="JmR-OK-731"/>
+                <constraint firstAttribute="trailing" secondItem="D6z-jq-jff" secondAttribute="trailing" id="OPN-b2-EmN"/>
+                <constraint firstItem="D6z-jq-jff" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WV0-Z3-wcg"/>
+                <constraint firstAttribute="trailing" secondItem="DXJ-Cw-GRD" secondAttribute="trailing" id="bAW-J3-dgL"/>
+                <constraint firstItem="DXJ-Cw-GRD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gPc-c3-xIW"/>
+                <constraint firstItem="D6z-jq-jff" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qeC-it-erJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-2.5" y="-164.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="default_logo.png" width="281" height="157"/>
+    </resources>
+</document>
